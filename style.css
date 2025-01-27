@@ -1,0 +1,88 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1050px;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 2px solid black;
+    border-radius: 18px;
+    width: 250px;
+    height: 380px;
+    background-color: cornflowerblue;
+}
+.card:hover{
+    box-shadow: 3px 3px 3px 5px grey;
+
+}
+.img{
+    width: 240px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 18px;
+}
+.img img{
+    width: 240px;
+    height: 180px;
+    border-radius: 18px;
+
+
+}
+.text{
+
+    width: 240px;
+    height: 180px;
+    background-color:yellow;
+    border-radius: 18px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    text-align: left;
+    
+
+
+}
+
+#heading{
+font-size:15px;
+font-weight: bolder;
+}
+.btn{
+    width: 230px;
+    height: 24px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.text #price{
+    text-align: left;
+    color: blue;
+    font-weight: bold;
+}
+.price{
+    text-align: left;
+    /* background-color: red; */
+    width: 240px;
+    font-weight: bold;
+    color: blue;
+}
+.heading{
+    width: 240px;
+    font-weight: bold;
+}
