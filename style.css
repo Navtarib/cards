@@ -5,8 +5,11 @@
 }
 .container{
     max-width: 1050px;
-    height: 100vh;
-    background-color: beige;
+    height: auto;
+    /* background-color: beige; */
+    background-image: url("assests/images/a.jpg");
+    background-size:cover ;
+    background-position: center;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -24,6 +27,7 @@
     width: 250px;
     height: 380px;
     background-color: cornflowerblue;
+    /* transform: rotate(90deg); */
 }
 .card:hover{
     box-shadow: 3px 3px 3px 5px grey;
